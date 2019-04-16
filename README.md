@@ -97,6 +97,9 @@ This method include below information.
 
 ### Difficulity of Implementation
 
+### Source
+
+* https://cloud.google.com/vision/?hl=ja
 
 
 ## AWS
