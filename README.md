@@ -121,7 +121,7 @@ If you use `DOCUMENT_TEXT_DETECTION`, you can get below list.
 * line information
 * word position
 
-Example:
+Example Response:
 ```
 {
   "responses": [
