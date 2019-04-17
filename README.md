@@ -9,34 +9,6 @@ Tryout of detect `sentenct region` and `word region` by using `PyTesseract`, `GC
 
 > Python-tesseract is a wrapper for Google’s Tesseract-OCR Engine. It is also useful as a stand-alone invocation script to tesseract, as it can read all image types supported by the Python Imaging Library, including jpeg, png, gif, bmp, tiff, and others, whereas tesseract-ocr by default only supports tiff and bmp. Additionally, if used as a script, Python-tesseract will print the recognized text instead of writing it to a file.
 
-
-
-### Ability
-
-### Speed
-
-### Difficulity of Implementation
-
-Implementation of PyTesseract is very simple and some useful method is prepared in module.
-
-#### Instration
-
-You can use PyTesseract by just pip install.
-
-```
-pip install pytesseract
-```
-
-
-
-If you use macOS, first you shold brew install tesseract.
-
-```
-brew install tesseract --HEAD
-```
-
-#### Region Detect
-
 `pytesseract` has `image_to_xxxxx` methods and you can decide type of output by change `xxxxx`.
 For example, if you use iamge_to_boxes method, you will get `region of word` below.
 
@@ -80,6 +52,33 @@ This method include below information.
 * text: word
 
 
+
+
+### Ability
+
+### Speed
+
+### Difficulity of Implementation
+
+Implementation of PyTesseract is very simple and some useful method is prepared in module.
+
+#### Instration
+
+You can use PyTesseract by just pip install.
+
+```
+pip install pytesseract
+```
+
+
+
+If you use macOS, first you shold brew install tesseract.
+
+```
+brew install tesseract --HEAD
+```
+
+
 ### Source
 
 * https://pypi.org/project/pytesseract/
@@ -89,29 +88,7 @@ This method include below information.
 
 ## GCP
 
-### Ability
-
-### Speed
-
-### Difficulity of Implementation
-
 GCP prepared Vision API including OCR function.
-
-#### Instration
-
-Before using Vision API
-* Create new GCP Project at GCP
-* Activate Cloud Vision API
-* Install and initialize Cloud SDK
-* Install gcloud component
-```
-gcloud components update &&
-gcloud components install
-```
-* Prepare enviroment of Node.js
-
-#### Region Detect
-
 If you use `DOCUMENT_TEXT_DETECTION`, you can get below list.
 
 * page number
@@ -283,6 +260,27 @@ Example Response:
   ]
 }
 ```
+
+### Ability
+
+### Speed
+
+### Difficulity of Implementation
+
+#### Instration
+
+Before using Vision API
+* Create new GCP Project at GCP
+* Activate Cloud Vision API
+* Install and initialize Cloud SDK
+* Install gcloud component
+```
+gcloud components update &&
+gcloud components install
+```
+* Prepare enviroment of Node.js
+
+
 
 
 ### Source
