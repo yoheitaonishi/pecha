@@ -6,8 +6,8 @@ Tryout of detect `sentenct region` and `word region` by using `PyTesseract`, `GC
 
 | | PyTesseract | Google Cloud Vision API |	MS Azure | Computer Vision API	Amazon Rekognition | 
 | :--- | :--- | :--- | :--- | :--- |
-| Language | | 56 languages include Japanese | 26 languages include Japanese	| English ,Number and Symbol | |
-| Price | | （US）	$1.5/1,000 papers（free untill 1,000 papers per a month） | $1.5/1,000 papers（free until 5,000 papers per a month） | $1.0/1,000 papers（free untill 5,000 papers per a month only for first 12 months） |
+| Language |  | 56 languages include Japanese | 26 languages include Japanese	| English ,Number and Symbol | |
+| Price | free | （US）	$1.5/1,000 papers（free untill 1,000 papers per a month） | $1.5/1,000 papers（free until 5,000 papers per a month） | $1.0/1,000 papers（free untill 5,000 papers per a month only for first 12 months） |
 | confidence | ○ | ○ | ☓	| ○ |
 | region of sentence | ○ | ○ | | ○ | 
 | region of word | ○ | ○ | | ○ |
