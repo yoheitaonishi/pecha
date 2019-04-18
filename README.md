@@ -302,6 +302,17 @@ gcloud components install
 * https://cloud.google.com/functions/docs/tutorials/ocr?hl=ja
 * https://cloud.google.com/vision/docs/ocr
 
+## MS Azure
+MS Azure Computer Vision API
+
+### Ability
+
+### Speed
+
+### Difficulity of Implementation
+
+
+
 ## AWS
 
 AWS also has OCR API named `AWS Rekognition`.
@@ -312,10 +323,4 @@ AWS also has OCR API named `AWS Rekognition`.
 ### Speed
 
 ### Difficulity of Implementation
-
-
-## MS Azure
-MS Azure Computer Vision API
-
-
 
