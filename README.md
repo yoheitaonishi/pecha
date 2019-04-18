@@ -2,6 +2,19 @@
 
 Tryout of detect `sentenct region` and `word region` by using `PyTesseract`, `GCP`, `AWS`
 
+## Price Review
+
+| | PyTesseract | Google Cloud Vision API |	MS Azure | Computer Vision API	Amazon Rekognition | 
+| :--- | :--- | :--- | :--- | :--- |
+| Language | | 56 languages include Japanese | 26 languages include Japanese	| English ,Number and Symbol | |
+| Price | | （US）	$1.5/1,000 papers（free untill 1,000 papers per a month） | $1.5/1,000 papers（free until 5,000 papers per a month） | $1.0/1,000 papers（free untill 5,000 papers per a month only for first 12 months） |
+| confidence | ○ | ○ | ☓	| ○ |
+| region of sentence | ○ | ○ | | ○ | 
+| region of word | ○ | ○ | | ○ |
+
+* http://cloud.flect.co.jp/entry/2018/06/18/151140
+
+
 ## PyTesseract
 > Python-tesseract is a python wrapper for Google's Tesseract-OCR
 
@@ -89,7 +102,7 @@ brew install tesseract --HEAD
 ## GCP
 
 GCP prepared Vision API including OCR function.
-If you use `DOCUMENT_TEXT_DETECTION`, you can get below list.
+If you use `DOCUMENT_TEXT_DETECTION` as varriable, you can get below list.
 
 * page number
 * block number
@@ -291,9 +304,18 @@ gcloud components install
 
 ## AWS
 
+AWS also has OCR API named `AWS Rekognition`.
+
+
 ### Ability
 
 ### Speed
 
 ### Difficulity of Implementation
+
+
+## MS Azure
+MS Azure Computer Vision API
+
+
 
