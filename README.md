@@ -2,7 +2,7 @@
 
 Tryout of detect `sentenct region` and `word region` by using `PyTesseract`, `GCP`, `AWS`
 
-## Price Review
+## Review
 
 | | PyTesseract | Google Cloud Vision API |	MS Azure | Computer Vision API	Amazon Rekognition | 
 | :--- | :--- | :--- | :--- | :--- |
