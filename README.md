@@ -928,3 +928,4 @@ You can detect charactor region and text region by AWS Rekognition.
 ### Difficulity of Implementation
 
 ### Source
+* https://hacknote.jp/archives/40276/
