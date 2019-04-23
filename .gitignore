@@ -1,3 +1,4 @@
 *.swp
 .DS_Store
 images/
+notebook/.ipynb_checkpoints
