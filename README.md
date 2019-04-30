@@ -31,7 +31,7 @@ For example, if you use iamge_to_boxes method, you will get `region of character
 
 > image_to_boxes Returns result containing recognized characters and their box boundaries
 
-
+Example Response:
 ```
 s 734 494 751 519 0
 p 753 486 776 518 0
@@ -260,9 +260,10 @@ Example Response:
 
 ## AWS
 
-AWS also has OCR API named `AWS Rekognition`.
+AWS also has OCR API named `AWS Rekognition`.  
 You can detect only text region by AWS Rekognition.
 
+Example Response:
 ```
 {
     "TextDetections": [
