@@ -10,7 +10,11 @@ Tryout of detect `sentenct region` and `character region` by using `PyTesseract`
 | Price | free | （US）	$1.5/1,000 papers（free untill 1,000 papers per a month） | $1.0/1,000 papers（free untill 5,000 papers per a month only for first 12 months） |
 | confidence | ○ | ○ | ○ |
 | region of sentence | ○ | ○ | ○ | 
-| region of charactor | ○ | ○ | ○ |
+| region of charactor | ○ | ○ | ☓ |
+| speed of sample image detection| 13.85630178451538 | 3.2007689476013184 | 4.740006923675537 |
+| accuracy | ○ | ○ | ☓(no Japanese library) |
+
+
 
 * http://cloud.flect.co.jp/entry/2018/06/18/151140
 
@@ -63,34 +67,6 @@ This method include below information.
 * left, top, width, height: box information of character box
 * conf: confidence
 * text: character
-
-
-
-
-### Ability
-
-### Speed
-
-### Difficulity of Implementation
-
-Implementation of PyTesseract is very simple and some useful method is prepared in module.
-
-#### Instration
-
-You can use PyTesseract by just pip install.
-
-```
-pip install pytesseract
-```
-
-
-
-If you use macOS, first you shold brew install tesseract.
-
-```
-brew install tesseract --HEAD
-```
-
 
 ### Source
 
@@ -274,27 +250,6 @@ Example Response:
 }
 ```
 
-### Ability
-
-### Speed
-
-### Difficulity of Implementation
-
-#### Instration
-
-Before using Vision API
-* Create new GCP Project at GCP
-* Activate Cloud Vision API
-* Install and initialize Cloud SDK
-* Install gcloud component
-```
-gcloud components update &&
-gcloud components install
-```
-* Prepare enviroment of Node.js
-
-
-
 
 ### Source
 
@@ -306,7 +261,7 @@ gcloud components install
 ## AWS
 
 AWS also has OCR API named `AWS Rekognition`.
-You can detect charactor region and text region by AWS Rekognition.
+You can detect only text region by AWS Rekognition.
 
 ```
 {
@@ -673,11 +628,6 @@ You can detect charactor region and text region by AWS Rekognition.
 }
 ```
 
-### Ability
-
-### Speed
-
-### Difficulity of Implementation
 
 ### Source
 * https://hacknote.jp/archives/40276/
